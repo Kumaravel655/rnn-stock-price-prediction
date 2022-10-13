@@ -73,6 +73,8 @@ plt.xlabel('Time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
+from sklearn.metrics import mean_squared_error as mse
+mse(y_test,predicted_stock_price)
 
 ```
 
