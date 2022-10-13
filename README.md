@@ -24,7 +24,7 @@ Include the neural network model diagram.
 
 ## PROGRAM
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
