@@ -1,25 +1,41 @@
-# Stock Price Prediction
+### EXP NO: 05
+
+### .
+
+# <p align = "center"> Stock Price Prediction </p>
 
 ## AIM
-
 To develop a Recurrent Neural Network model for stock price prediction.
 
 ## Problem Statement and Dataset
-
+We are developing the RNN model to predict the stock prices of Google using the dataset provided. The dataset has many features, but we will be predicting the "Open" feauture alone. We will be using a sequence of 60 readings to predict the 61st reading.we have taken 70 Inputs with 70 Neurons in the RNN Layer (hidden) and one neuron for the Output Layer.These parameters can be changed as per requirements.
 
 ## Neural Network Model
 
-Include the neural network model diagram.
+
 
 ## DESIGN STEPS
 
 ### STEP 1:
-
+Import tensorflow library and preprocessing libraries.
 
 ### STEP 2:
+Load the traning dataset and take one column values and scale it using minmaxscaler.
 
 ### STEP 3:
+Split x_train(0-60 values) and y_train(61 st value).
 
+### STEP 4:
+Create a RNN model with required no of neurons with one output neuron.
+
+### STEP 5:
+Fit the model and load testing dataset.For x_test,combine the values of both datasets.
+
+### STEP 6:
+Follow the same splitting.Make the prediction.
+
+### STEP 7:
+Plot graph and find the mse value.
 
 
 ## PROGRAM
