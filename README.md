@@ -1,6 +1,6 @@
 ### EXP NO: 05
 
-### .
+### Date:
 
 # <p align = "center"> Stock Price Prediction </p>
 
@@ -40,7 +40,10 @@ Plot graph and find the mse value.
 
 
 ## PROGRAM
-
+```
+# Developed By:KUMARAVEL V
+# Register Number:212220230027
+```
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +98,7 @@ mse(y_test,predicted_stock_price)
 
 ```
 
-## OUTPUT
+## <br><br><br><br>OUTPUT
 
 ### True Stock Price, Predicted Stock Price vs time
 ![image](https://user-images.githubusercontent.com/75235334/195596872-3e362993-486d-400d-8ceb-913853aa2d10.png)
